@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="./output.css" rel="stylesheet">
+</head>
+<style>
+    input {
+        outline: white 1px solid;
+        padding: 2px 3px;
+    }
+</style>
+
+<body>
+    <section>
+        <div class="container mx-auto">
+            <div id="main" class="w-full h-screen grid place-content-center mx-auto my-10 sm:my-0">
+                <div id="twoForm" class="flex flex-col gap-10 sm:flex sm:flex-row sm:gap-5">
+                    <div id="signupform" class="w-64 bg-[#5c5a5a] rounded text-white p-5 flex flex-col gap-5">
+                        <div id="signhead" class="flex flex-col gap-3">
+                            <div class="flex flex-row justify-between">
+                                <div id="text" class="font-medium">Sign up</div>
+                                <div id="text"
+                                    class="grid place-content-center cursor-pointer bg-[#aaa] shadow-2xl shadow-white px-1 rounded hover:bg-red-500 ">
+                                    <span class="material-symbols-outlined text-xs">close</span>
+                                </div>
+                            </div>
+                            <div class="border p-1 text-center font-light text-base">Sing up with Google</div>
+                        </div>
+                        <form type="POST" action="" class="flex flex-col gap-2 bg-[#5c5a5a]">
+                            <label for="text" name="name" class="font-semibold">Name</label>
+                            <input type="text" name="name" placeholder="Enter your name"
+                                class="text-base bg-[#5c5a5a] font-thin">
+                            <label for="email" name="Email" class="font-semibold">Email</label>
+                            <input type="email" name="Email" placeholder="Enter your email"
+                                class="text-base bg-[#5c5a5a] font-thin">
+                            <label for="Pass" name="password" class="font-semibold">Password</label>
+                            <input type="password" name="password" placeholder="At least 8 Charaters"
+                                class="text-base bg-[#5c5a5a] font-thin">
+                            <label for=""></label>
+                        </form>
+                        <div id="agree" class="flex flex-row gap-2">
+                            <input type="checkbox" name="" id="checkbox" class="outline-none">
+                            <h1 class="text-sm">I agree with <span class="underline text-emerald-400">Terms</span> and
+                                <span class="underline text-emerald-400">Privacy</span></h1>
+                        </div>
+                        <div class="flex flex-col gap-3">
+                            <div id="button" class="text-center bg-green-700 font-semibold p-1 rounded hover:bg-green-600 active:bg-yellow-400">
+                                <button type="submit">Sign up</button>
+                            </div>
+                            <div id="line" class="border-t"></div>
+                            <div class="text-center">
+                                <h1>Already have an account ?</h1>
+                                <button type="submit" class="text-green-600 font-semibold hover:text-yellow-400">Log in</button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div id="signinform" class="w-64 bg-[#5c5a5a] rounded text-white p-5 flex flex-col gap-5">
+                        <div id="signinhead" class="flex flex-col gap-3">
+                            <div class="flex flex-row justify-between">
+                                <div id="text" class="font-medium">Sign in</div>
+                                <div id="text"
+                                    class="grid place-content-center cursor-pointer bg-[#aaa] shadow-2xl shadow-white px-1 rounded hover:bg-red-500">
+                                    <span class="material-symbols-outlined text-xs">close</span>
+                                </div>
+                            </div>
+                            <div class="border p-1 text-center font-light text-base">Sing up with Google</div>
+                        </div>
+                        <form type="POST" action="" class="flex flex-col gap-2 bg-[#5c5a5a]">
+                            
+                            <label for="email" name="Email" class="font-semibold">Email</label>
+                            <input type="email" name="Email" placeholder="Enter your email"
+                                class="text-base bg-[#5c5a5a] font-thin">
+                            <label for="Pass" name="password" class="font-semibold">Password</label>
+                            <input type="password" name="password" placeholder="At least 8 Charaters"
+                                class="text-base bg-[#5c5a5a] font-thin">
+                            <label for=""></label>
+                        </form>
+                        <div id="remember" class="flex flex-row gap-2">
+                            <input type="checkbox" name="" id="checkbox" class="outline-none">
+                            <h1 class="text-sm">Remember me </h1>
+                        </div>
+                        <div class="flex flex-col gap-3">
+                            <div id="button" class="text-center bg-green-700 font-semibold p-1 rounded hover:bg-green-600 active:bg-yellow-400">
+                                <button type="submit">Log in</button>
+                            </div>
+                            <div id="line" class="border-t"></div>
+                            <div class="text-center">
+                                <h1>Don't have an account ?</h1>
+                                <button type="submit" class="text-green-600 font-semibold hover:text-yellow-400">Sign up</button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
